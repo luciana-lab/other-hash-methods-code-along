@@ -8,6 +8,7 @@ require 'pry'
 #  grains: ["rice", "pasta"]
 # }
 
+#returns the grocery item that comes first alphebetically
 def get_the_min(groceries)
-  #code your solution here!
+  groceries.values.flatten.min
 end
